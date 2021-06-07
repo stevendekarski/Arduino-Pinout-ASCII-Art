@@ -8,15 +8,15 @@ I use the “Wiring diagram:” to link the sensor hardware to the Arduino pin. 
 
 **This is a list of the ASCII art:**
 
-- [Adafruit Feather HUZZAH ESP8266](https://github.com/stevendekarski/Arduino-ASCII-Art/blob/main/Adafruit-Feather-HUZZAH-ESP8266.txt)
-- Arduino Mega 2560 R3
-- Arduino Nano 33 BLE Sense
-- Arduino Pro Mini 168
-- Arduino Pro Mini 328P
-- Arduino UNO R3
-- Wemos D1 mini ESP8266
-- Wemos D1 mini Pro ESP8266
-- ESP-32 CAM
+- [Adafruit Feather HUZZAH ESP8266](https://github.com/stevendekarski/Arduino-Pinout-ASCII-Art/blob/main/Adafruit-Feather-HUZZAH-ESP8266.txt)
+- [Arduino Mega 2560 R3](https://github.com/stevendekarski/Arduino-Pinout-ASCII-Art/blob/main/Arduino-Mega-2560-R3.txt)
+- [Arduino Nano 33 BLE Sense](https://github.com/stevendekarski/Arduino-Pinout-ASCII-Art/blob/main/Arduino-Nano33-BLE-Sense.txt)
+- [Arduino Pro Mini 168](https://github.com/stevendekarski/Arduino-Pinout-ASCII-Art/blob/main/Arduino-Pro-Mini-168.txt)
+- [Arduino Pro Mini 328P](https://github.com/stevendekarski/Arduino-Pinout-ASCII-Art/blob/main/Arduino-Pro-Mini-328P.txt)
+- [Arduino UNO R3](https://github.com/stevendekarski/Arduino-Pinout-ASCII-Art/blob/main/Arduino-UNO-R3.txt)
+- [Wemos D1 mini ESP8266](https://github.com/stevendekarski/Arduino-Pinout-ASCII-Art/blob/main/Arduino-Wemos-D1-Mini-ESP8266.txt)
+- [Wemos D1 mini Pro ESP8266](https://github.com/stevendekarski/Arduino-Pinout-ASCII-Art/blob/main/Arduino-Wemos-D1-Mini-Pro-ESP8266.txt)
+- [ESP-32 CAM](https://github.com/stevendekarski/Arduino-Pinout-ASCII-Art/blob/main/ESP32-CAM.txt)
 
 ## Example:
 ```cpp
