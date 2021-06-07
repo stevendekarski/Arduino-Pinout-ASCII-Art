@@ -1,0 +1,42 @@
+/*
+  Project Name: 
+  Hardware:     Pro Mini Atmega168 3.3v 8MHz,
+  Created:      2021/01/01
+  Modified:     2021/01/01
+  Language:     C++/Arduino
+  Version:      1.0.0
+  Author/s:     
+  Licensing:    
+
+  Notes:        Pin Function/IDE Pin Number, * = Pin is being used.
+
+
+  Pro Mini Atmega168 3.3v 8MHz
+
+           VCC -------+  +------- RDX/0         
+           GRD ----+  |  |  +---- TXD/1
+           GRD -+  |  |  |  |  +- DTR
+                |  |  |  |  |  |
+             +-[ ][ ][ ][ ][ ][ ]-+
+             |                    |    
+       TXD/1 | [ ]            [ ] | RAW/3V3 to 12V in
+       RXD/0 | [ ]            [ ] | GRD
+         RST | [ ]  Atmega168 [ ] | RST
+         GRD | [ ]     /\     [ ] | VCC/3V3
+      INT0/2 | [ ]    /  \    [ ] | 17/A3/ACD3
+  PWM/INT1/3 | [ ]    \  /    [ ] | 16/A2/ACD2
+           4 | [ ]     \/     [ ] | 15/A1/ACD1
+           5 | [ ]            [ ] | 14/A0/ACD0
+           6 | [ ]  [8.0MHz]  [ ] | 13/SCK/LED
+           7 | [ ]       [LED][ ] | 12/MISO
+           8 | [ ]   [REST]   [ ] | 11/MOSI/PWM
+           9 | [ ][ ][ ][ ][ ][ ] | 10/SS/PWM
+             +--------------------+
+                   |  |  |  | 
+   19/SDA/A4/ADC4 -+  |  |  +- A7
+   18/SCL/A5/ADC5 ----+  +---- A6
+
+  Wiring diagram:
+
+
+*/

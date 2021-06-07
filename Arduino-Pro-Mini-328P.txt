@@ -1,0 +1,44 @@
+/*
+  Project Name: 
+  Hardware:     Pro Mini ATmega328P 3.3V 8MHz,
+  Created:      2021/01/01
+  Modified:     2021/01/01
+  Language:     C++/Arduino
+  Version:      1.0.0
+  Author/s:     
+  Licensing:    
+
+  Notes:        Pin Function/IDE Pin Number, * = Pin is being used.
+
+
+  Pro Mini ATmega328P 3.3V 8MHz
+
+         RXD/1 -------+  +------- VCC         
+         TXD/0 ----+  |  |  +---- GRD
+           DTR -+  |  |  |  |  +- GRD
+                |  |  |  |  |  |
+             +-[ ][ ][ ][ ][ ][ ]-+
+             |                    |    
+       TXD/1 | [ ]            [ ] | RAW/3V3 to 12V in
+       RXD/0 | [ ]    [LED]   [ ] | GRD
+         RST | [ ]            [ ] | RST
+         GRD | [ ][8.0MHz]    [ ] | VCC/3V3
+      INT0/2 | [ ]     /\ [19][17]| 17/A3/ACD3  19/A5/ADC5/SCL
+  PWM/INT1/3 | [ ]    /AT\[18][16]| 16/A2/ACD2  18/A4/ADC4/SDA
+           4 | [ ]   /mega\   [ ] | 15/A1/ACD1
+       PWM/5 | [ ]   \328P/   [ ] | 14/A0/ACD0
+       PWM/6 | [ ]    \  /    [ ] | 13/SCK/LED
+           7 | [ ]     \/     [ ] | 12/MISO
+           8 | [ ]   [REST]   [ ] | 11/MOSI/PWM
+       PWM/9 | [ ]LED[ ][ ][ ][ ] | 10/SS/PWM
+             +--------------------+
+                      |  |  | 
+                      |  |  +- A7
+              GRD ----+  +---- A6
+
+  Wiring diagram:
+
+
+*/
+
+ 

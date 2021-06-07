@@ -1,0 +1,40 @@
+/*
+  Project Name: 
+  Hardware:     Arduino Nano 33 BLE Sense, IMU - LSM9DS1, Microphone - MP34DT05, Gesture/light/proximity - APDS9960, Barometric pressure - LPS22HB, Temperature and humidity - HTS221, RGB LED
+  Created:      2021/01/01
+  Modified:     2021/01/01
+  Language:     C++/Arduino
+  Version:      1.0.0
+  Author/s:     
+  Licensing:    
+
+  Notes:        https://www.arduino.cc/en/Guide/NANO33BLESense   Pin 13 = LED_BUILTIN, Use LED_PWR to turn off/on the power LED, PWM Pins = all digital pins, * = Pin is being used.
+                The RGB LED can be address using LEDR LEDG and LEDB, for the RGB LED HIGH = off.
+
+  Arduino Nano 33 BLE Sense
+
+            Micro Type B
+         +----[ USB ]----+
+         |[LED]     [PWD]| 
+  SCK/13 | [ ]       [ ] | 12/MISO
+     3V3 | [ ]       [ ] | 11/MOSI
+     REF | [ ]       [ ] | 10
+      A0 | [ ]  [o]  [ ] | 9
+      A1 | [ ]       [ ] | 8
+      A2 | [ ]       [ ] | 7
+      A3 | [ ]       [ ] | 6
+  SDA/A4 | [ ]       [ ] | 5
+  SCL/A5 | [ ] RGBLED[ ] | 4
+      A6 | [ ]  MIC  [ ] | 3
+      A7 | [ ]+-----+[ ] | 2
+      5V | [ ]|     |[ ] | GRD
+     RST | [ ]|     |[ ] | RST
+     GRD | [ ]|     |[ ] | RX0
+     VIN | [ ]+-----+[ ] | TX1
+         |    |\   /|    |
+         +----+-----+----+
+
+  Wiring diagram:
+
+
+  */

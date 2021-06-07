@@ -1,0 +1,39 @@
+/*
+  Project Name: 
+  Hardware:     Adafruit Feather HUZZAH ESP8266,
+  Created:      2021/01/01
+  Modified:     2021/01/01
+  Language:     C++/Arduino
+  Version:      1.0.0
+  Author/s:     
+  Licensing:    
+
+  Notes:        Pin Function/IDE Pin Number, ~ PWM Pin, * = Pin is being used.
+
+
+  Adafruit Feather HUZZAH ESP8266
+
+               Micro Type B
+            +---[   USB  ]---+
+        RST | [ ]        +---|   
+        3V3 | [ ][RST]   |   | Optional Lipo Battery
+         NC | [ ]        +---|
+        GND | [ ]            |
+  ADC/A0/17 | [ ]        [ ] | VBATore
+         NC | [ ]        [ ] | EN
+         NC | [ ]        [ ] | USB/VBUS
+         NC | [ ]        [ ]~| 14/SCK
+         NC | [ ]        [ ]~| 12/MISO
+         NC | [ ]+------+[ ]~| 13/MOSI
+     SCK/14 |~[ ]|      |[ ]~| 15
+    MOSI/13 |~[ ]| WiFi |[ ]~| 0/LEDRed
+    MISO/12 |~[ ]|      |[ ]~| 16/WAKE
+       RX/3 |~[ ]|      |[ ]~| 2/LEDBlue
+       TX/1 |~[ ]+------+[ ]~| 5/SCL
+       CHPD | [ ]        [ ]~| 4/SDA
+            +----------------+
+
+  Wiring diagram:
+
+
+*/

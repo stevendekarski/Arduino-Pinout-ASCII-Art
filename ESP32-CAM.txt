@@ -1,0 +1,32 @@
+/*
+  Project Name:
+  Hardware:     ESP-32 CAM,
+  Created:      2021/01/01
+  Modified:     2021/01/01
+  Language:     C++/Arduino
+  Version:      1.0.0
+  Author/s:     
+  Licensing:    
+
+  Notes:        Pin Function/IDE Pin Number, ~ PWM/I2C/1 Wire Pin, * = Pin is being used. Important: GPIO 0 needs to be connected to GND so that you’re able to upload code.
+                FLASH = Flashlight for the cam, note this gets very hot when left on.  A built-in red LED is on GPIO33.  VCC 3.3V/5V OUT is by default set to 3.3V BUT test first and can be change a jumper pad 
+
+  ESP-32 CAM        
+
+         +----+------+----+
+         |    |      |    |
+         |    | WiFi |    |
+ FLASH/4 | [ ]|ESP 32|[ ] | GRD
+       2 | [ ]| CAM  |[ ] | 1/U0TXD
+      14 | [ ]|      |[ ] | 3/U0RXD
+      15 | [ ]+------+[ ] | VCC 3.3V/5V OUT
+      13 | [ ]        [ ] | GND/Flashing mode
+      12 | [ ]        [ ] | 0/Flashing mode
+     GND | [ ][LED]33 [ ] | 16
+      5V | [ ][RST]   [ ] | 3.3V
+         +----------------+
+
+  Wiring diagram:
+
+
+*/

@@ -1,0 +1,33 @@
+/*
+  Project Name: 
+  Hardware:     Wemos D1 mini Pro ESP8266,
+  Created:      2021/01/01
+  Modified:     2021/01/01
+  Language:     C++/Arduino
+  Version:      1.0.0
+  Author/s:     
+  Licensing:    
+
+  Notes:        Pin Function/IDE Pin Number, ~ PWM/I2C/1 Wire Pin, * = Pin is being used. 10k Pull-up on D3, 10k pull-up and BUILTIN_LED on D4, 10k pull-down and SS on D8
+
+
+  Wemos D1 mini Pro ESP8266
+
+                 Micro Type B
+             +----[  USB ]----+
+             |            [RST]
+          5V | [ ]        [ ] | 3V3
+         GRD | [ ]        [ ]~| 15/D8/SS
+    LED/D4/2 |~[ ]        [ ]~| 13/D7/MOSI
+  Flash/D3/0 |~[ ]        [ ]~| 12/D6/MISO
+    SDA/D2/4 |~[ ]   +--+ [ ]~| 14/D5/SCK
+    SCL/D1/5 |~[ ]   |  | [ ] | 16/D0/WAKE
+        RX/3 |~[ ]   +--+ [ ] | A0/Analog input, max 3.3V input
+        TX/1 |~[ ]        [ ] | RST
+             | ===== Antenna O|
+             +----------------+
+
+  Wiring diagram:
+
+
+*/
