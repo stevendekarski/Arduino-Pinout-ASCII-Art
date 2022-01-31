@@ -1,0 +1,41 @@
+/*
+  Project Name: 
+  Hardware:     BSFrance LoRa32u4 II 1.3,
+  Created:      2022/01/01
+  Modified:     2022/01/01
+  Language:     C++/Arduino
+  Version:      1.0.0
+  Author/s:     
+  Licensing:    
+
+  Notes:        Pin Function/IDE Pin Number, ~ PWM Pin, * = Pin is being used. 
+                https://www.thethingsnetwork.org/forum/uploads/default/original/3X/5/1/51b8bea42af44ed364bcf8d5fed15af0f411da9b.png
+
+
+  BSFrance LoRa32u4 II 1.3
+
+               Micro Type B
+            +----[ USB  ]----+
+        RST | [ ]        +---|   
+        3V3 | [ ][RST]   |   | Optional Lipo Battery
+       AREF | [ ][PWDLED]+---|
+        GND | [ ]    [LED]   |
+         A0 | [ ]        [ ] | BAT
+         A1 | [ ] +----+ [ ] | EN
+         A2 | [ ] |MEGA| [ ] | 5V/USB
+         A3 | [ ] |32u4| [ ]~| 13/LED
+         A4 | [ ] +----+ [ ]~| 12
+         A5 | [ ]        [ ]~| 11
+     SCK/15 |~[ ]+------+[ ]~| 10
+    MOSI/16 |~[ ]|HPDTeK|[ ]~| 9
+    MISO/14 |~[ ]|HDP13K|[ ]~| 6
+       RX/0 |~[ ]| V1.1 |[ ]~| 5/
+       TX/1 |~[ ]|      |[ ]~| 3/SCL
+         14 | [ ]+------+[ ] | 2/SDA
+            |    [o]         |       
+            +----------------+
+
+  Wiring diagram:
+
+
+*/
