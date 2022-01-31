@@ -1,0 +1,46 @@
+/*
+  Project Name: 
+  Hardware:     LilyGO TTGO LoRa32 ESP32 T3 V1.1.6,
+  Created:      2022/01/01
+  Modified:     2022/01/01
+  Language:     C++/Arduino
+  Version:      1.0.0
+  Author/s:     
+  Licensing:    
+
+  Notes:        Pin Function/IDE Pin Number, ~ PWM Pin, * = Pin is being used.
+                LILYGO® TTGO ESP32 LoRa32 T3_V1.6.1 20210104
+                In the Arduino Code Editor this board is called: TTGO LaRa32-OLED v2.1.6.  Add this line to preferences to install ESP32 boards https://dl.espressif.com/dl/package_esp32_index.json
+                Allways have the LoRa antenna connected when powered on
+
+
+  LilyGO TTGO LoRa32 ESP32 T# V1.1.6
+
+            Micro Type B
+            +-[ USB ]-[SD Card]-+
+            |       +---+       | 
+   Battery =|       +---+   +---|--+
+            |   Lipo Battery|   |  | LoRa SMA Antenna Connector
+     Reset =|     Connector +---|--+
+            |                [o]| LoRa U.FL Antenna Connector
+         5V | [ ]           [ ] | 25/LED
+        GRD | [ ]           [ ] | 4                    SD Card Reader
+       3.3V | [ ]  +------+ [ ] | 0                    CS MOSI SCLK MISO
+        GRD | [ ]  | TTGO | [ ] | 2                    13 15   14   02
+LoRa_DI0/26 | [ ]  |      | [ ] | 15
+      LoRa1 | [ ]  |LORA32| [ ] | 13                   OLED Display
+      LoRa2 | [ ]  +------+ [ ] | 12                   SDA SCL
+         19 | [ ]   +---+   [ ] | 14                   21  22
+         23 | [ ]   |ESP|   [ ] | 35
+     SCL/22 | [ ]   |32 |   [ ] | 34                   LoRa SX1276 868/915
+        RXD | [ ]   +---+   [ ] | Reset                CS MOSI SCLK MISO DI0 RST
+        TXD | [ ]           [ ] | 39                   18 27   5    19   26  23
+     SDA/21 | [ ]  __ _____ [ ] | 36
+            |     |  |___'|     |
+            |     |_______|     |
+            +-------------------+
+                 WiFi Antenna
+  Wiring diagram:
+
+
+*/
