@@ -1,8 +1,8 @@
 /*
   Project Name: 
-  Hardware:     LilyGO TTGO LoRa32 ESP32 T3 V1.1.6,
-  Created:      2022/01/01
-  Modified:     2022/01/01
+  Hardware:     LilyGO TTGO LoRa32 ESP32 T3 V1.6.1,
+  Created:      2022/05/12
+  Modified:     2022/05/12
   Language:     C++/Arduino
   Version:      1.0.0
   Author/s:     
@@ -14,7 +14,7 @@
                 Allways have the LoRa antenna connected when powered on
 
 
-  LilyGO TTGO LoRa32 ESP32 T# V1.1.6
+  LilyGO TTGO LoRa32 ESP32 T# V1.6.1
 
             Micro Type B
             +-[ USB ]-[SD Card]-+
