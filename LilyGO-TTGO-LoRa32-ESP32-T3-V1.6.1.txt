@@ -11,10 +11,10 @@
   Notes:        Pin Function/IDE Pin Number, ~ PWM Pin, * = Pin is being used.
                 LILYGO® TTGO ESP32 LoRa32 T3_V1.6.1 20210104
                 In the Arduino Code Editor this board is called: TTGO LaRa32-OLED v2.1.6.  Add this line to preferences to install ESP32 boards https://dl.espressif.com/dl/package_esp32_index.json
-                Allways have the LoRa antenna connected when powered on
+                Always have the LoRa antenna connected when powered on
 
 
-  LilyGO TTGO LoRa32 ESP32 T# V1.6.1
+  LilyGO TTGO LoRa32 ESP32 T3 V1.6.1
 
             Micro Type B
             +-[ USB ]-[SD Card]-+
