@@ -18,7 +18,7 @@ I use the “Wiring diagram:” to link the sensor hardware to the Arduino pin. 
 - [Wemos D1 mini Pro ESP8266](https://github.com/stevendekarski/Arduino-Pinout-ASCII-Art/blob/main/Arduino-Wemos-D1-Mini-Pro-ESP8266.txt)
 - [BSFrance-LoRa32u4-II-1.3.txt](https://github.com/stevendekarski/Arduino-Pinout-ASCII-Art/blob/main/BSFrance-LoRa32u4-II-1.3.txt)
 - [ESP-32 CAM](https://github.com/stevendekarski/Arduino-Pinout-ASCII-Art/blob/main/ESP32-CAM.txt)
-- [LilyGO TTGO LoRa32 ESP32 T3 V1.1.6](https://github.com/stevendekarski/Arduino-Pinout-ASCII-Art/blob/main/LilyGO-TTGO-LoRa32-ESP32-T3-V1.6.1.txt)
+- [LilyGO TTGO LoRa32 ESP32 T3 V1.6.1](https://github.com/stevendekarski/Arduino-Pinout-ASCII-Art/blob/main/LilyGO-TTGO-LoRa32-ESP32-T3-V1.6.1.txt)
 
 ## Example:
 ```cpp
